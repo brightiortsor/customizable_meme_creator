@@ -9,7 +9,7 @@ function App() {
   const [squares, setSquares] = useState(boxes);
 
   const squareElements = squares.map((square) => (
-    <Box key={square.id} on={square.on} />
+    <Box key={square.id} on={squares.on} />
   ));
 
   return (
